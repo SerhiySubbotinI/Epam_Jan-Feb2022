@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.339" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\IdeaProjects\validations-epam-email\target\test-classes;C:\IdeaProjects\validations-epam-email\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire16376927150925757699\surefirebooter17288013103220221192.jar C:\Users\user\AppData\Local\Temp\surefire16376927150925757699 2022-02-21T10-42-04_439-jvmRun1 surefire11147738387875000299tmp surefire_04085156610214337989tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\IdeaProjects\validations-epam-email\target\test-classes;C:\IdeaProjects\validations-epam-email\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\IdeaProjects\validations-epam-email"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire16376927150925757699\surefirebooter17288013103220221192.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\IdeaProjects\validations-epam-email"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile\;C:\Program Files (x86)\Common Files\Acronis\VirtualFile64\;C:\Program Files (x86)\Common Files\Acronis\FileProtector\;C:\Program Files (x86)\Common Files\Acronis\FileProtector64\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;%JAVA_HOME2%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Users\user\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="validateEpamEmailValidCases{String}[1]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.114"/>
+  <testcase name="validateEpamEmailValidCases{String}[2]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailValidCases{String}[3]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailValidCases{String}[4]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.003"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[1]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.003"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[2]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[3]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.003"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[4]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[5]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[6]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[7]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[8]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[9]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[10]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[11]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[12]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[13]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.001"/>
+  <testcase name="validateEpamEmailInvalidCases{String}[14]" classname="com.epam.rd.autotasks.validations.EpamEmailValidationTest" time="0.002"/>
+</testsuite>
